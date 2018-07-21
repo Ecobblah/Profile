@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
   <head>
-    <title>Bootstrap Example</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <!--Awesomeicons-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!--Awesome icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Profile</title>
+
 
   </head>
   <style type="text/css">
@@ -86,9 +82,10 @@
   </style>
   </head>
 
+
+
   <body>
-
-
+    <!--header-->
     <div id="top" class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="text-center" id="header-font">Emmanuel Cobblah</h1>
@@ -98,16 +95,18 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+      <!-- Nav bar-->
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav" id="links">
           <a class="nav-item nav-link" href="https://www.linkedin.com/in/ecobblah/">linkedin</a>
-          <a class="nav-item nav-link" href="#">Github</a>
-          <a class="nav-item nav-link" href="#">something</a>
-          <a class="nav-item nav-link" href="#">something</a>
+          <a class="nav-item nav-link" href="https://github.com/Ecobblah">Github</a>
+          <a class="nav-item nav-link" href="http://emmanuelcobbtesthostingpackage-com.stackstaging.com/Profile/resume.pdf">Resume</a>
+          <a class="nav-item nav-link" href="#">Download resume</a>
         </div>
       </div>
     </nav>
-    <!-- part 2-->
+
+    <!-- About me -->
     <div class="container text-center">
       <div class="row">
         <div class="col-lg">
@@ -119,7 +118,7 @@
             I hold an Associates degree in Computer Engineering Technology. I am currently</br>
             pursuing a Bachelors degree in computer Science at Queens College and expect to graduate in 2018.</p>
           <h3>My skills?</h3>
-          <p class="top-font">Java, C++, Python, HTML, CSS, JavaScript, bootstrap, selenium and more.</p>
+          <p class="top-font">Java, C++, Python, HTML, CSS, JavaScript, bootstrap, selenium and more <a href="http://emmanuelcobbtesthostingpackage-com.stackstaging.com/Profile/resume.pdf" target="_blank">check resume</a>.</p>
           <h3>My school QC</h3>
           <a href="http://www.qc.cuny.edu/pages/home.aspx"> <img src="./Img/school.jpg" class="img-fluid"> </a>
         </div>
@@ -127,13 +126,15 @@
     </div>
 
 
+
+
     <!--Projects-->
-    <div class="container text-center">
+    <div class="container text-center pb-2">
       <h1 class="text-center display-2">My work</h1>
-      <div class="row">
+      <div class="row row-eq-height">
         <div class="col-lg">
           <div class="thumbnail">
-            <div class="caption">
+            <div class="caption pb-4">
               <h2>Code player</h2>
             </div>
             <a href="http://emmanuelcobbtesthostingpackage-com.stackstaging.com/jquery/codePlayer2.html">
@@ -166,7 +167,7 @@
             </div>
             <div class="dropdown show">
               <a class="btn btn-secondary btn-lg btn-info dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                More!
               </a>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -182,37 +183,45 @@
         </div>
       </div>
     </div>
+
     <!--Contact info-->
     <div class="container-fluid contactBg text-center mb-0">
       <h1 class="text-center display-2">Contact info</h1>
       <div class="container">
         <div class="row">
-          <div class="col-md mb-4">
-            <i class="fa fa-home mb-4" style="font-size:50px;color:white"></i>
+          <div class="col-lg mb-4">
+            <i class="fa fa-home mb-4" style="font-size:60px;color:white"></i>
             <h4 class="mb-4">Where im located</h4>
-            <p class="contactText">NY Laurelton 11413</p>
+            <p class="contactText mb-4">NY, Laurelton 11413</p>
           </div>
-          <div class="col-md  mb-4">
-            <i class="fa fa-phone mb-4" style="font-size:50px;color:white"></i>
+          <div class="col-lg  mb-4">
+            <i class="fa fa-phone mb-4" style="font-size:60px;color:white"></i>
             <h4 class="mb-4">Phone number (perfer)</h4>
-            <p class="contactText">347-843-2052</p>
+            <p class="contactText mb-4">347-843-2052</p>
           </div>
-          <div class="col-md mb-4">
-            <i class="fa fa-envelope-o mb-4" style="font-size:50px;color:white"></i>
+          <div class="col-lg mb-4">
+            <i class="fa fa-envelope-o mb-4" style="font-size:60px;color:white"></i>
             <h4 class="mb-4">Email</h4>
-            <p class="contactText">Ecobblah@outlook.com</p>
+            <p class="contactText mb-4">Ecobblah@outlook.com</p>
           </div>
         </div>
       </div>
     </div>
     <!--footer-->
     <div id="bottom" class="jumbotron jumbotron-fluid mt-0">
-      <div class="container">
-        <p>Email: Ecobblah@outlook.com</p>
-        <span>Icons and stuff</span>
+      <div class="container text-center">
+        <h3>Imporant sites</h3>
+        <span>Github</span><br>
+        <span>Bootstrap</span><br>
+        <span>Wc3 school</span><br>
+        <span>Wordpress</span><br>
+        <span>Stack overflow</span><br>
+        <span>Queens College</span></span><br>
       </div>
     </div>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   </body>
 
 </html>
