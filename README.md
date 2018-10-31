@@ -1,2 +1,2 @@
 # Profile
-This is not my best work. Im planning to redesign my profile.
+This is my Profile using Html, CSS, Jquery and Bootstrap.
