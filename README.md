@@ -1,2 +1,2 @@
 # Profile
-This is my Profile using Html, CSS, JQuery and Bootstrap.
+This is my Profile using Html, CSS, Bootstrap and JQuery.
